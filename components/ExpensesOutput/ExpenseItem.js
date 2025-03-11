@@ -10,6 +10,7 @@ export default function ExpenseItem({ id, description, amount, date }) {
     navigation.navigate("ManageExpense", {
       expenseId: id,
     });
+    console.log("Pressed");
   }
   return (
     <Pressable
